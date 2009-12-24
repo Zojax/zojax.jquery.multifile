@@ -1,0 +1,12 @@
+<configure 
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <zojax:resourceinclude
+     name="jquery.multifile.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" compression="yes"
+     file="jquery.MultiFile.js" />
+
+</configure>
